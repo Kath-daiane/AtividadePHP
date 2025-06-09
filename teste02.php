@@ -3,20 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Variaveis em PHP</title>
+    <title>Estruituras de Controle</title>
 </head>
 <body>
-    <h1>Variáveis em PHP</h1>
+    <h1>if / elseif / else </h1>
+    O Valor é 
     <?php
-         $valor = "Kath";
+        $valor = 1;
 
-         echo $valor . "<br>";
-
-            $valor = 9;
-            $valor = $valor + 1;
-            $valor += 1;
-
-            echo $valor;
+        if ($valor == 1) {
+            echo "um";
+        } elseif ($valor == 2) {
+            echo "dois";
+        } elseif ($valor == 3) {
+            echo "três";
+        } else {
+            echo "outro valor";
+        }
     ?>
 
 </body>

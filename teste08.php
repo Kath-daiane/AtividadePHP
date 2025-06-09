@@ -15,9 +15,9 @@
 
        if ($hora > 6 or $hora < 18) {
            echo "Bom dia! Hoje é " . $hoje . " e agora são " . $agora;
-             echo "img src='lua.png'";
+             echo "img src='lua.webp'";
        } Else {
-              echo "<img src='sol.png'>";
+              echo "<img src='sol.webp'>";
        }
 
         echo "hoje é dia " . $hoje . " e agora são " . $agora. " horas.";

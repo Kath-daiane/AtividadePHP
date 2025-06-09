@@ -11,7 +11,7 @@
     <?php
         $n = array(2, 4, 6, 8, 10);
         foreach ($n as $i) {
-            echo $valor . ", ";
+            echo $i . ", ";
         }
     ?>
 </body>
